@@ -1,0 +1,62 @@
+# Dependency directories
+node_modules/
+ios/Pods/
+
+# Gradle files
+android/.gradle
+android/app/build/
+
+# IDE files
+.vscode/
+*.iml
+*.idea/
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Build files
+build/
+dist/
+*.apk
+
+# Environment variables
+.env
+
+# Debug/Temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# iOS build files
+ios/*.pbxuser
+ios/*.mode1v3
+ios/*.mode2v3
+ios/*.perspectivev3
+ios/*.xcworkspace
+ios/*.xcuserdatad
+
+# Android build files
+android/app/*.keystore
+android/app/google-services.json
+android/app/release.keystore
+android/app/src/main/assets/index.android.bundle
+android/app/src/main/assets/index.android.bundle.meta
+android/build/
+android/captures/
+android/gradle/
+android/gradlew
+android/local.properties
+android/*.iml
+android/build.gradle
+android/gradle-wrapper.properties
+
+# Miscellaneous
+*.class
+*.jar
+*.war
+*.ear
+*.DS_Store
+Thumbs.db
