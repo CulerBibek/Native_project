@@ -7,7 +7,7 @@ const MyButton = ({ title }) => {
       onPress={() =>
         Alert.alert("Title", "message", [
           {
-            text: "Cancel",
+            text: "Cancels",
           },
           {
             text: "OK",
